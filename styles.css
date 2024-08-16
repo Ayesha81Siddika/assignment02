@@ -1,0 +1,221 @@
+@import url('https://fonts.cdnfonts.com/css/miama');@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.cdnfonts.com/css/inter');@import url('https://fonts.cdnfonts.com/css/inter');
+/* banner heading designing */
+body {
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding:  57px 140px 0px 190px;
+    font-family: inter;
+}
+ header{
+   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); 
+}
+.banner_des{
+    text-align: left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+nav ul{
+    display: flex;
+    width: 55%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 87.95px;
+}
+#Fitness{
+    font-size: 36px;
+    font-weight: 800;
+    color: #E6533C;
+    text-decoration: italic;
+}
+.navbar{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.banner_heading{
+    font-size: 78px;
+   font-weight: 900;
+   color: #FFFFFF;
+   margin-top: 97.5px;
+}
+#shape{
+    font-family: 'Miama';
+    color: #FFFFFF;
+}
+.banner_details{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 28px 0px 28px 0px;
+}
+/* banner button designing */
+main{
+    background: rgb(0, 0, 0); 
+}
+.banner_button{
+    display: flex;
+    gap: 15px;
+}
+.btn1{
+    color:  white;
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+     background: rgb(230, 83, 60);
+}
+.btn2{
+    padding: 10px 40px 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+}
+.b_btn{
+    padding: 20px 23px 20px 23px;
+    margin-left: -100px;
+    margin-top: -800px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48,0.54)
+}
+.number{
+    font-size: 24px;
+     font-weight: 900;
+     color: #FAFAF9;
+}
+.tutorial{
+    font-size: 16px;
+    font-weight: 400;  
+    color: #EFEDE8A6;
+    
+}
+#plus{
+    font-size: 40px;
+font-weight: 900;
+color: #FFFFFF;
+}
+#more{
+    font-size: 13px;
+    font-weight: 400;
+}
+.b_btn2{
+    padding: 17px 53px 16px 24px;
+   
+    border: 1px solid rgba(255, 255, 255, 0.1);
+     border-radius: 12px;
+     backdrop-filter: blur(20px);
+     background: rgba(255, 255, 255, 0.1);
+}
+/* First sction  */
+.section1_headline{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 97.5px 14px 97.5px;
+}
+.sec1_details{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 58px;
+}
+.sec1_image{
+    width: 272px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.secimage_heading{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.secimage_details{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    
+}
+.sec1_image_display{
+    display: flex;
+    
+    gap: 70px;
+}
+/* Second Sction Design */
+.sec2_heading{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+.sec2_details{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.sec2_button{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 15px 40px 14px 40px;
+}
+.sec2_part1{
+    text-align: left;
+}
+.sec2_image{
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+    text-align: center;
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 41px 54px 40px 54px;
+}
+@media  screen and (max-width: 576px){
+    body {
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec1_image_display{
+        display: flex;
+        flex-direction: column;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sec2_image{
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+}
