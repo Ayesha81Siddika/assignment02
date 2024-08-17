@@ -14,6 +14,7 @@ body {
 nav{
     display: flex;
     justify-content: space-between;
+    width: 50%;
    
 }
 nav ul{
@@ -250,6 +251,7 @@ th, td{
     text-align: left;
     padding: 0px 10px 0px 10px;
    text-align: left;
+   width: 100%;
    
 }
 .calculate_BMI_heading{
@@ -279,12 +281,15 @@ th, td{
 .team_container{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
+            gap: 15px;
+            border-radius: 18px;
+           background-color: rgba(0, 0, 0, 0.2);
     }
     .trainer {
         border-radius: 10px;
     }
     .trainer img{
+        height: 100%;
         width: 100%;
     }
     .trainer_details{
@@ -314,9 +319,45 @@ margin-bottom: 14px;
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
     gap: 15px;
+    padding: 10px 0px 10px 0px;
     background-color: lightslategray;
 }
+/* designing Foooter part */
+.footer_title{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    padding: 0px;
+}
+.Footer_part_heading{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+.footer_details{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+.alignleft{
+    text-align: left;
+}
+.footer_display{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.footer_bclr{
+    background-color: rgba(255, 255, 255, 0.1);/
+}
 @media  screen and (max-width: 576px){
+
     body {
         padding: 0px;
         margin: 0 auto;
@@ -325,6 +366,16 @@ margin-bottom: 14px;
         display: flex;
         flex-direction: column;
     }
+    .b_btn{
+    padding: 20px 23px 20px 23px;
+    margin-left: -1px;
+    margin-top: -400px;
+   }
+   .b_btn2{
+    top: 100%;
+    left: 50%;
+    
+}
     .sec1_image_display{
         display: flex;
         flex-direction: column;
@@ -342,10 +393,30 @@ margin-bottom: 14px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-left: 10px;
     }
     .team_container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
+        padding: 15px;
+        border-radius: 18px;
+       background-color: rgba(0, 0, 0, 0.2);
+    }
+    .footer_display{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .footer_display{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+ 
+        
 
-}}
+}
